@@ -1,0 +1,7 @@
+doctrine:
+  dbal:
+    url: "pdo-sqlite:///:memory:"
+
+api_platform:
+  resource_class_directories:
+    - "%kernel.project_dir%/tests/Entity"
